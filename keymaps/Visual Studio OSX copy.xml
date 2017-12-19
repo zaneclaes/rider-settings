@@ -1,0 +1,58 @@
+<keymap version="1" name="Visual Studio OSX copy" parent="Visual Studio OSX">
+  <action id="$Copy">
+    <keyboard-shortcut first-keystroke="meta j" />
+  </action>
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="shift delete" />
+    <keyboard-shortcut first-keystroke="meta l" />
+    <keyboard-shortcut first-keystroke="meta q" />
+  </action>
+  <action id="$Paste">
+    <keyboard-shortcut first-keystroke="meta k" />
+  </action>
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="meta y" />
+    <keyboard-shortcut first-keystroke="shift meta semicolon" />
+  </action>
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="meta semicolon" />
+  </action>
+  <action id="CloseActiveTab">
+    <keyboard-shortcut first-keystroke="meta comma" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="meta alt slash" />
+    <keyboard-shortcut first-keystroke="meta alt divide" />
+  </action>
+  <action id="Debugger.MarkObject" />
+  <action id="Editor Copy">
+    <keyboard-shortcut first-keystroke="meta j" />
+  </action>
+  <action id="Editor Cut">
+    <keyboard-shortcut first-keystroke="meta q" />
+  </action>
+  <action id="Editor Paste">
+    <keyboard-shortcut first-keystroke="meta k" />
+  </action>
+  <action id="Editor Redo">
+    <keyboard-shortcut first-keystroke="shift meta semicolon" />
+  </action>
+  <action id="Editor Undo">
+    <keyboard-shortcut first-keystroke="meta semicolon" />
+  </action>
+  <action id="Exit" />
+  <action id="GotoNextBookmark" />
+  <action id="GotoPreviousBookmark" />
+  <action id="OpenFile" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="meta alt enter" />
+  </action>
+  <action id="SaveDocument">
+    <keyboard-shortcut first-keystroke="meta o" />
+  </action>
+  <action id="ShowSettings" />
+  <action id="ToggleBookmark" />
+  <action id="Vcs.ReformatCommitMessage">
+    <keyboard-shortcut first-keystroke="meta alt enter" />
+  </action>
+</keymap>
