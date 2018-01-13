@@ -1,9 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project Assembly-CSharp" />
-    <option name="defaultScopeName" value="Project Assembly-CSharp" />
+    <option name="customScope" value="Solution Explorer Selection" />
+    <option name="defaultScopeName" value="Solution Explorer Selection" />
     <option name="fromCursor" value="false" />
     <option name="FIND_ORIGIN" value="entire_scope" />
-    <option name="SEARCH_SCOPE" value="Project Assembly-CSharp" />
+    <option name="SEARCH_SCOPE" value="Solution Explorer Selection" />
   </component>
 </application>
