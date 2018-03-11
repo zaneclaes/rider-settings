@@ -151,7 +151,10 @@
   <action id="RiderUnitTestNewSessionAction" />
   <action id="RiderUnitTestRepeatPreviousRunAction" />
   <action id="RiderUnitTestRunContextAction" />
+  <action id="RiderUnitTestRunCurrentSessionAction" />
   <action id="RiderUnitTestRunSolutionAction" />
+  <action id="RiderUnitTestSessionAbortAction" />
+  <action id="RiderUnitTestSessionRerunFailedTestsAction" />
   <action id="RiderUnitTestSessionRunCurrentSessionAction" />
   <action id="SaveDocument">
     <keyboard-shortcut first-keystroke="meta s" />
