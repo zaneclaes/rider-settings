@@ -4,8 +4,10 @@
     <option name="defaultScopeName" value="Solution Explorer Selection" />
     <option name="fromCursor" value="false" />
     <option name="localCaseSensitive" value="true" />
+    <option name="regularExpressions" value="true" />
     <option name="FIND_ORIGIN" value="entire_scope" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Solution Explorer Selection" />
   </component>
 </application>
