@@ -3,7 +3,9 @@
     <option name="customScope" value="Solution Explorer Selection" />
     <option name="defaultScopeName" value="Solution Explorer Selection" />
     <option name="fromCursor" value="false" />
+    <option name="regularExpressions" value="true" />
     <option name="FIND_ORIGIN" value="entire_scope" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Solution Explorer Selection" />
   </component>
 </application>
