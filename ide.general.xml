@@ -13,6 +13,6 @@
     <entry key="ide.tooltip.initialDelay" value="0" />
     <entry key="ide.tooltip.initialDelay.highlighter" value="0" />
     <entry key="search.everywhere.settings" value="true" />
-    <entry key="ide.svg.icon" value="true" />
+    <entry key="ide.win.file.chooser.native" value="true" />
   </component>
 </application>
