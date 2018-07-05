@@ -146,6 +146,7 @@
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="meta alt enter" />
   </action>
+  <action id="RiderOpenSolution" />
   <action id="RiderUnitTestAppendTestsAction" />
   <action id="RiderUnitTestDebugContextAction" />
   <action id="RiderUnitTestDotMemoryUnitAction" />
@@ -158,6 +159,9 @@
   <action id="RiderUnitTestSessionAbortAction" />
   <action id="RiderUnitTestSessionRerunFailedTestsAction" />
   <action id="RiderUnitTestSessionRunCurrentSessionAction" />
+  <action id="SaveAll">
+    <keyboard-shortcut first-keystroke="shift meta o" />
+  </action>
   <action id="SaveDocument">
     <keyboard-shortcut first-keystroke="meta s" />
     <keyboard-shortcut first-keystroke="meta o" />
