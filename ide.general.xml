@@ -14,5 +14,6 @@
     <entry key="ide.tooltip.initialDelay.highlighter" value="0" />
     <entry key="search.everywhere.settings" value="true" />
     <entry key="ide.mac.file.chooser.native" value="false" />
+    <entry key="ide.svg.icon" value="true" />
   </component>
 </application>
