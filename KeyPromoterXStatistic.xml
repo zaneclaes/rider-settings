@@ -9,12 +9,28 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Indent Selection">
+        <Item>
+          <IdeaActionID>EditorIndentSelection</IdeaActionID>
+          <ShortCut>'⇥'</ShortCut>
+          <Description>Indent Selection</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Rename...">
         <Item>
           <IdeaActionID>RenameElement</IdeaActionID>
           <ShortCut>'⌘R, R' or '⌘R, ⌘R'</ShortCut>
           <Description>Rename...</Description>
           <Count>4</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Unindent Line or Selection">
+        <Item>
+          <IdeaActionID>EditorUnindentSelection</IdeaActionID>
+          <ShortCut>'⇧⇥' or '⌘/'</ShortCut>
+          <Description>Unindent Line or Selection</Description>
+          <Count>2</Count>
         </Item>
       </Statistic>
     </option>
