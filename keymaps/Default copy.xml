@@ -2,6 +2,10 @@
   <action id="BuildCurrentProject">
     <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
+  <action id="BuildSolutionAction">
+    <keyboard-shortcut first-keystroke="ctrl f9" />
+    <keyboard-shortcut first-keystroke="shift ctrl b" />
+  </action>
   <action id="Editor Undo">
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
@@ -22,6 +26,9 @@
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift ctrl n" />
     <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
+  <action id="GotoTypeDeclaration">
+    <mouse-shortcut keystroke="shift control button1" />
   </action>
   <action id="Jdbc.OpenEditor.DDL">
     <mouse-shortcut keystroke="control button1" />
