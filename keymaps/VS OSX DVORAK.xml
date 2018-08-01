@@ -104,6 +104,10 @@
   <action id="ExpandAll">
     <keyboard-shortcut first-keystroke="meta add" />
   </action>
+  <action id="ExpandExpandableComponent">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="meta add" />
+  </action>
   <action id="ExpandRegion">
     <keyboard-shortcut first-keystroke="meta down" />
   </action>
