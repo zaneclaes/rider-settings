@@ -1,4 +1,4 @@
-<keymap version="1" name="Default copy" parent="$default">
+<keymap version="1" name="Windows Dvorak" parent="$default">
   <action id="BuildCurrentProject">
     <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
