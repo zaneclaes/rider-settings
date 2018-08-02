@@ -24,6 +24,7 @@
     <keyboard-shortcut first-keystroke="meta back_slash" />
   </action>
   <action id="Back">
+    <keyboard-shortcut first-keystroke="meta minus" />
     <keyboard-shortcut first-keystroke="meta subtract" />
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="meta left" />
@@ -52,6 +53,8 @@
   </action>
   <action id="DatabaseView.PropertiesAction" />
   <action id="Debugger.MarkObject" />
+  <action id="Diff.FocusOppositePane" />
+  <action id="Diff.FocusOppositePaneAndScroll" />
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -103,14 +106,9 @@
   <action id="ExpandAll">
     <keyboard-shortcut first-keystroke="meta add" />
   </action>
-  <action id="ExpandExpandableComponent">
-    <keyboard-shortcut first-keystroke="shift enter" />
-    <keyboard-shortcut first-keystroke="meta add" />
-  </action>
   <action id="ExpandRegion">
     <keyboard-shortcut first-keystroke="meta down" />
   </action>
-  <action id="FileChooser.TogglePathShowing" />
   <action id="Find">
     <keyboard-shortcut first-keystroke="meta u" />
   </action>
@@ -118,6 +116,7 @@
     <keyboard-shortcut first-keystroke="shift meta u" />
   </action>
   <action id="Forward">
+    <keyboard-shortcut first-keystroke="shift meta minus" />
     <keyboard-shortcut first-keystroke="shift meta subtract" />
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="meta right" />
@@ -140,18 +139,24 @@
   <action id="Images.Editor.ZoomIn">
     <keyboard-shortcut first-keystroke="meta add" />
   </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
+    <keyboard-shortcut first-keystroke="ctrl right" />
+    <keyboard-shortcut first-keystroke="ctrl tab" />
+  </action>
   <action id="OpenFile" />
-  <action id="Print" />
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="shift meta open_bracket" />
+    <keyboard-shortcut first-keystroke="ctrl left" />
+    <keyboard-shortcut first-keystroke="shift ctrl tab" />
+  </action>
   <action id="ReSharperGotoNextErrorInSolution">
     <keyboard-shortcut first-keystroke="shift alt page_down" />
-    <keyboard-shortcut first-keystroke="alt semicolon" />
+    <keyboard-shortcut first-keystroke="meta z" />
   </action>
   <action id="RecentChangedFiles" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="meta alt enter" />
-  </action>
-  <action id="RenameElement">
-    <keyboard-shortcut first-keystroke="meta p" />
   </action>
   <action id="RiderOpenSolution" />
   <action id="RiderUnitTestAppendTestsAction" />
@@ -178,17 +183,11 @@
     <keyboard-shortcut first-keystroke="alt multiply" />
   </action>
   <action id="ShowSettings" />
+  <action id="Switcher" />
   <action id="ToggleBookmark" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
-  <action id="UML.ActualSize">
-    <keyboard-shortcut first-keystroke="meta divide" />
-  </action>
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="XDebugger.JumpToSource">
     <keyboard-shortcut first-keystroke="f4" />
-  </action>
-  <action id="com.jetbrains.rider.interactive.csi.SendToCSharpInteractive" />
-  <action id="com.jetbrains.rider.interactive.csi.StartCSharpInteractive">
-    <keyboard-shortcut first-keystroke="f1" />
   </action>
 </keymap>
