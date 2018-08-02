@@ -1,0 +1,6 @@
+<keymap version="1" name="Rider OSX copy" parent="Rider OSX">
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="meta w" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+</keymap>
