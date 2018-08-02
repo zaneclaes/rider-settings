@@ -9,6 +9,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Errors In Solution">
+        <Item>
+          <IdeaActionID>ActivateErrorsInSolutionToolWindow</IdeaActionID>
+          <ShortCut>'⌃⌘2'</ShortCut>
+          <Description>Errors In Solution</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Indent Selection">
         <Item>
           <IdeaActionID>EditorIndentSelection</IdeaActionID>
