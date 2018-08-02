@@ -1,9 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'Omni'" />
-    <option name="defaultScopeName" value="Project 'Omni'" />
+    <option name="customScope" value="Project 'Moongate'" />
+    <option name="defaultScopeName" value="Project 'Moongate'" />
     <option name="fromCursor" value="false" />
     <option name="FIND_ORIGIN" value="entire_scope" />
-    <option name="SEARCH_SCOPE" value="Project 'Omni'" />
+    <option name="SEARCH_SCOPE" value="Project 'Moongate'" />
   </component>
 </application>
