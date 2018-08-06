@@ -49,6 +49,14 @@
           <Count>4</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Solution">
+        <Item>
+          <IdeaActionID>ActivateSolutionToolWindow</IdeaActionID>
+          <ShortCut>'⌘+1'</ShortCut>
+          <Description>Solution</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Unindent Line or Selection">
         <Item>
           <IdeaActionID>EditorUnindentSelection</IdeaActionID>
