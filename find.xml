@@ -1,11 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '.../Assets/Scripts/Moongate/Data/Models/UserAuthorizationData.cs'" />
-    <option name="defaultScopeName" value="File '.../Assets/Scripts/Moongate/Data/Models/UserAuthorizationData.cs'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
     <option name="fromCursor" value="false" />
-    <option name="regularExpressions" value="true" />
     <option name="FIND_ORIGIN" value="entire_scope" />
-    <option name="REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="File '.../Assets/Scripts/Moongate/Data/Models/UserAuthorizationData.cs'" />
+    <option name="SEARCH_SCOPE" value="All Places" />
   </component>
 </application>
