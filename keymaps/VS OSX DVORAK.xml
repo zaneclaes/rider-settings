@@ -160,6 +160,10 @@
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="meta alt enter" />
   </action>
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="shift meta h" />
+    <keyboard-shortcut first-keystroke="shift ctrl meta u" />
+  </action>
   <action id="RiderOpenSolution" />
   <action id="RiderUnitTestAppendTestsAction" />
   <action id="RiderUnitTestDebugContextAction" />
