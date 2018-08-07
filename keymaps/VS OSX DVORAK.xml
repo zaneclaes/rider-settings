@@ -29,9 +29,11 @@
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="meta left" />
   </action>
-  <action id="BuildSolutionAction">
-    <keyboard-shortcut first-keystroke="shift meta b" />
+  <action id="BuildCurrentProject">
     <keyboard-shortcut first-keystroke="meta x" />
+  </action>
+  <action id="BuildSolutionAction">
+    <keyboard-shortcut first-keystroke="shift meta x" />
   </action>
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="shift meta comma" />
@@ -152,7 +154,7 @@
   </action>
   <action id="ReSharperGotoNextErrorInSolution">
     <keyboard-shortcut first-keystroke="shift alt page_down" />
-    <keyboard-shortcut first-keystroke="meta z" />
+    <keyboard-shortcut first-keystroke="alt semicolon" />
   </action>
   <action id="RecentChangedFiles" />
   <action id="ReformatCode">
