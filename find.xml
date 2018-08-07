@@ -1,11 +1,11 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'Moongate'" />
-    <option name="defaultScopeName" value="Project 'Moongate'" />
+    <option name="customScope" value="Solution" />
+    <option name="defaultScopeName" value="Solution" />
     <option name="fromCursor" value="false" />
     <option name="regularExpressions" value="true" />
     <option name="FIND_ORIGIN" value="entire_scope" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="Project 'Moongate'" />
+    <option name="SEARCH_SCOPE" value="Solution" />
   </component>
 </application>
