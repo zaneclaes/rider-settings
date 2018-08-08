@@ -24,17 +24,17 @@
     <keyboard-shortcut first-keystroke="meta back_slash" />
   </action>
   <action id="Back">
+    <keyboard-shortcut first-keystroke="meta minus" />
     <keyboard-shortcut first-keystroke="meta subtract" />
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="meta left" />
   </action>
-  <action id="BuildSelection">
+  <action id="BuildCurrentProject">
     <keyboard-shortcut first-keystroke="meta x" />
   </action>
   <action id="BuildSolutionAction">
     <keyboard-shortcut first-keystroke="shift meta x" />
   </action>
-  <action id="ChangesView.UnshelveSilently" />
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="shift meta comma" />
   </action>
@@ -108,14 +108,9 @@
   <action id="ExpandAll">
     <keyboard-shortcut first-keystroke="meta add" />
   </action>
-  <action id="ExpandExpandableComponent">
-    <keyboard-shortcut first-keystroke="shift enter" />
-    <keyboard-shortcut first-keystroke="meta add" />
-  </action>
   <action id="ExpandRegion">
     <keyboard-shortcut first-keystroke="meta down" />
   </action>
-  <action id="FileChooser.TogglePathShowing" />
   <action id="Find">
     <keyboard-shortcut first-keystroke="meta u" />
   </action>
@@ -123,6 +118,7 @@
     <keyboard-shortcut first-keystroke="shift meta u" />
   </action>
   <action id="Forward">
+    <keyboard-shortcut first-keystroke="shift meta minus" />
     <keyboard-shortcut first-keystroke="shift meta subtract" />
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="meta right" />
@@ -156,7 +152,6 @@
     <keyboard-shortcut first-keystroke="ctrl left" />
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
   </action>
-  <action id="Print" />
   <action id="ReSharperGotoNextErrorInSolution">
     <keyboard-shortcut first-keystroke="shift alt page_down" />
     <keyboard-shortcut first-keystroke="alt semicolon" />
@@ -165,12 +160,9 @@
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="meta alt enter" />
   </action>
-  <action id="RenameElement">
-    <keyboard-shortcut first-keystroke="meta p" />
-  </action>
-  <action id="Replace">
-    <keyboard-shortcut first-keystroke="meta h" />
-    <keyboard-shortcut first-keystroke="meta alt u" />
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="shift meta h" />
+    <keyboard-shortcut first-keystroke="shift ctrl meta u" />
   </action>
   <action id="RiderOpenSolution" />
   <action id="RiderUnitTestAppendTestsAction" />
@@ -197,19 +189,11 @@
     <keyboard-shortcut first-keystroke="alt multiply" />
   </action>
   <action id="ShowSettings" />
-  <action id="ShowUmlDiagramPopup" />
   <action id="Switcher" />
   <action id="ToggleBookmark" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
-  <action id="UML.ActualSize">
-    <keyboard-shortcut first-keystroke="meta divide" />
-  </action>
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="XDebugger.JumpToSource">
     <keyboard-shortcut first-keystroke="f4" />
-  </action>
-  <action id="com.jetbrains.rider.interactive.csi.SendToCSharpInteractive" />
-  <action id="com.jetbrains.rider.interactive.csi.StartCSharpInteractive">
-    <keyboard-shortcut first-keystroke="f1" />
   </action>
 </keymap>
