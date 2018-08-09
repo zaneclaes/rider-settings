@@ -14,7 +14,7 @@
           <IdeaActionID>$Delete</IdeaActionID>
           <ShortCut>'⌦' or '⌫' or '⌘⌫'</ShortCut>
           <Description>Delete...</Description>
-          <Count>11</Count>
+          <Count>14</Count>
         </Item>
       </Statistic>
       <Statistic Action="Errors In Solution">
@@ -30,7 +30,7 @@
           <IdeaActionID>FindUsages</IdeaActionID>
           <ShortCut>'⇧F12'</ShortCut>
           <Description>Find Usages</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Indent Selection">
@@ -46,7 +46,7 @@
           <IdeaActionID>RenameElement</IdeaActionID>
           <ShortCut>'⌘R, R' or '⌘R, ⌘R'</ShortCut>
           <Description>Rename...</Description>
-          <Count>5</Count>
+          <Count>6</Count>
         </Item>
       </Statistic>
       <Statistic Action="Unindent Line or Selection">
