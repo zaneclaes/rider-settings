@@ -14,7 +14,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'F12' or '⌘Button1 Click' or '⌘I'</ShortCut>
           <Description>Declaration</Description>
-          <Count>2</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete...">
@@ -22,7 +22,7 @@
           <IdeaActionID>$Delete</IdeaActionID>
           <ShortCut>'⌦' or '⌫' or '⌘⌫'</ShortCut>
           <Description>Delete...</Description>
-          <Count>17</Count>
+          <Count>20</Count>
         </Item>
       </Statistic>
       <Statistic Action="Errors In Solution">
@@ -62,7 +62,7 @@
           <IdeaActionID>RenameElement</IdeaActionID>
           <ShortCut>'⌘R, R' or '⌘R, ⌘R'</ShortCut>
           <Description>Rename...</Description>
-          <Count>10</Count>
+          <Count>16</Count>
         </Item>
       </Statistic>
       <Statistic Action="Toggle Line Breakpoint">
