@@ -1,0 +1,70 @@
+<application>
+  <component name="KeyPromoterXStatistic">
+    <option name="statistics">
+      <Statistic Action="Code Cleanup...">
+        <Item>
+          <IdeaActionID>CodeCleanup</IdeaActionID>
+          <ShortCut>'⌘E, C' or '⌘E, ⌘C'</ShortCut>
+          <Description>Code Cleanup...</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Declaration">
+        <Item>
+          <IdeaActionID>GotoDeclaration</IdeaActionID>
+          <ShortCut>'F12' or '⌘Button1 Click' or '⌘I'</ShortCut>
+          <Description>Declaration</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Delete...">
+        <Item>
+          <IdeaActionID>$Delete</IdeaActionID>
+          <ShortCut>'⌦' or '⌫' or '⌘⌫'</ShortCut>
+          <Description>Delete...</Description>
+          <Count>14</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Errors In Solution">
+        <Item>
+          <IdeaActionID>ActivateErrorsInSolutionToolWindow</IdeaActionID>
+          <ShortCut>'⌃⌘2'</ShortCut>
+          <Description>Errors In Solution</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Find Usages">
+        <Item>
+          <IdeaActionID>FindUsages</IdeaActionID>
+          <ShortCut>'⇧F12'</ShortCut>
+          <Description>Find Usages</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Indent Selection">
+        <Item>
+          <IdeaActionID>EditorIndentSelection</IdeaActionID>
+          <ShortCut>'⇥'</ShortCut>
+          <Description>Indent Selection</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rename...">
+        <Item>
+          <IdeaActionID>RenameElement</IdeaActionID>
+          <ShortCut>'⌘R, R' or '⌘R, ⌘R'</ShortCut>
+          <Description>Rename...</Description>
+          <Count>6</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Unindent Line or Selection">
+        <Item>
+          <IdeaActionID>EditorUnindentSelection</IdeaActionID>
+          <ShortCut>'⇧⇥' or '⌘/'</ShortCut>
+          <Description>Unindent Line or Selection</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
+    </option>
+  </component>
+</application>
