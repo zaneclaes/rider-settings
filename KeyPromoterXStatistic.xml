@@ -22,7 +22,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'F12' or '⌘Button1 Click' or '⌘I'</ShortCut>
           <Description>Declaration</Description>
-          <Count>3</Count>
+          <Count>4</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete...">
@@ -70,7 +70,7 @@
           <IdeaActionID>RenameElement</IdeaActionID>
           <ShortCut>'⌘R, R' or '⌘R, ⌘R'</ShortCut>
           <Description>Rename...</Description>
-          <Count>64</Count>
+          <Count>68</Count>
         </Item>
       </Statistic>
       <Statistic Action="Toggle Line Breakpoint">
