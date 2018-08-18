@@ -42,6 +42,9 @@
     <keyboard-shortcut first-keystroke="meta f4" />
     <keyboard-shortcut first-keystroke="meta comma" />
   </action>
+  <action id="CodeCleanup">
+    <keyboard-shortcut first-keystroke="shift meta e" />
+  </action>
   <action id="CollapseRegion">
     <keyboard-shortcut first-keystroke="meta up" />
   </action>
@@ -123,23 +126,37 @@
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="meta right" />
   </action>
+  <action id="Generate.Missing.Members.TypeScript" />
+  <action id="GotoClass">
+    <keyboard-shortcut first-keystroke="meta i" />
+  </action>
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="f12" />
     <mouse-shortcut keystroke="meta button1" />
-    <keyboard-shortcut first-keystroke="meta i" />
+    <keyboard-shortcut first-keystroke="meta e" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift meta t" />
-    <keyboard-shortcut first-keystroke="meta l" />
+    <keyboard-shortcut first-keystroke="meta y" />
   </action>
   <action id="GotoNextBookmark" />
   <action id="GotoPreviousBookmark" />
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="shift meta alt t" />
+    <keyboard-shortcut first-keystroke="shift meta i" />
+  </action>
   <action id="Images.Editor.ActualSize">
     <keyboard-shortcut first-keystroke="meta divide" />
   </action>
   <action id="Images.Editor.ToggleGrid" />
   <action id="Images.Editor.ZoomIn">
     <keyboard-shortcut first-keystroke="meta add" />
+  </action>
+  <action id="ImplementMethods" />
+  <action id="InsertLiveTemplate" />
+  <action id="Jdbc.OpenEditor.DDL">
+    <keyboard-shortcut first-keystroke="f12" />
+    <mouse-shortcut keystroke="meta button1" />
   </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
@@ -152,6 +169,10 @@
     <keyboard-shortcut first-keystroke="ctrl left" />
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
   </action>
+  <action id="QuickImplementations">
+    <keyboard-shortcut first-keystroke="alt space" />
+  </action>
+  <action id="RdCodeCleanupAction" />
   <action id="ReSharperGotoNextErrorInSolution">
     <keyboard-shortcut first-keystroke="shift alt page_down" />
     <keyboard-shortcut first-keystroke="alt semicolon" />
@@ -173,6 +194,7 @@
   <action id="RiderUnitTestRunContextAction" />
   <action id="RiderUnitTestRunContextUntilFailAction" />
   <action id="RiderUnitTestRunCurrentSessionAction" />
+  <action id="RiderUnitTestRunCurrentSessionTwAction" />
   <action id="RiderUnitTestRunSolutionAction" />
   <action id="RiderUnitTestSessionAbortAction" />
   <action id="RiderUnitTestSessionRerunFailedTestsAction" />
@@ -189,9 +211,12 @@
     <keyboard-shortcut first-keystroke="alt multiply" />
   </action>
   <action id="ShowSettings" />
+  <action id="SurroundWithLiveTemplate" />
   <action id="Switcher" />
   <action id="ToggleBookmark" />
+  <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
+  <action id="Unscramble" />
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="XDebugger.JumpToSource">
     <keyboard-shortcut first-keystroke="f4" />
