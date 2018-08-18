@@ -42,6 +42,7 @@
     <keyboard-shortcut first-keystroke="meta f4" />
     <keyboard-shortcut first-keystroke="meta comma" />
   </action>
+  <action id="CodeCleanup" />
   <action id="CollapseRegion">
     <keyboard-shortcut first-keystroke="meta up" />
   </action>
@@ -98,6 +99,7 @@
     <keyboard-shortcut first-keystroke="ctrl a" />
   </action>
   <action id="EditorToggleCase" />
+  <action id="EditorToggleUseSoftWraps" />
   <action id="EditorUnindentSelection">
     <keyboard-shortcut first-keystroke="shift tab" />
     <keyboard-shortcut first-keystroke="meta slash" />
@@ -125,22 +127,23 @@
   </action>
   <action id="Generate.Missing.Members.TypeScript" />
   <action id="GotoClass">
-    <keyboard-shortcut first-keystroke="meta y" />
+    <keyboard-shortcut first-keystroke="shift meta i" />
   </action>
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="f12" />
     <mouse-shortcut keystroke="meta button1" />
-    <keyboard-shortcut first-keystroke="shift meta i" />
+    <keyboard-shortcut first-keystroke="meta e" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift meta t" />
-    <keyboard-shortcut first-keystroke="meta i" />
+    <keyboard-shortcut first-keystroke="meta y" />
   </action>
   <action id="GotoNextBookmark" />
   <action id="GotoPreviousBookmark" />
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="shift meta alt t" />
     <keyboard-shortcut first-keystroke="shift meta y" />
+    <keyboard-shortcut first-keystroke="meta i" />
   </action>
   <action id="Images.Editor.ActualSize">
     <keyboard-shortcut first-keystroke="meta divide" />
@@ -150,6 +153,7 @@
     <keyboard-shortcut first-keystroke="meta add" />
   </action>
   <action id="ImplementMethods" />
+  <action id="InsertLiveTemplate" />
   <action id="Jdbc.OpenEditor.DDL">
     <keyboard-shortcut first-keystroke="f12" />
     <mouse-shortcut keystroke="meta button1" />
@@ -160,6 +164,9 @@
     <keyboard-shortcut first-keystroke="ctrl tab" />
   </action>
   <action id="OpenFile" />
+  <action id="Pause">
+    <keyboard-shortcut first-keystroke="meta pause" />
+  </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="shift meta open_bracket" />
     <keyboard-shortcut first-keystroke="ctrl left" />
@@ -175,6 +182,11 @@
   <action id="RecentChangedFiles" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="meta alt enter" />
+  </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="r" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta r" />
+    <keyboard-shortcut first-keystroke="shift meta p" />
   </action>
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="shift meta h" />
@@ -206,9 +218,13 @@
     <keyboard-shortcut first-keystroke="alt multiply" />
   </action>
   <action id="ShowSettings" />
+  <action id="SilentCodeCleanup" />
+  <action id="SurroundWithLiveTemplate" />
   <action id="Switcher" />
   <action id="ToggleBookmark" />
+  <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
+  <action id="Unscramble" />
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="XDebugger.JumpToSource">
     <keyboard-shortcut first-keystroke="f4" />
