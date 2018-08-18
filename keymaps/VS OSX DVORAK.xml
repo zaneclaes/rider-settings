@@ -42,7 +42,9 @@
     <keyboard-shortcut first-keystroke="meta f4" />
     <keyboard-shortcut first-keystroke="meta comma" />
   </action>
-  <action id="CodeCleanup" />
+  <action id="CodeCleanup">
+    <keyboard-shortcut first-keystroke="shift meta e" />
+  </action>
   <action id="CollapseRegion">
     <keyboard-shortcut first-keystroke="meta up" />
   </action>
