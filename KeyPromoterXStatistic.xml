@@ -46,7 +46,7 @@
           <IdeaActionID>ActivateErrorsInSolutionToolWindow</IdeaActionID>
           <ShortCut>'⌃⌘2'</ShortCut>
           <Description>Errors In Solution</Description>
-          <Count>3</Count>
+          <Count>4</Count>
         </Item>
       </Statistic>
       <Statistic Action="Find Usages">
@@ -78,7 +78,7 @@
           <IdeaActionID>RenameElement</IdeaActionID>
           <ShortCut>'⌘R, R' or '⌘R, ⌘R'</ShortCut>
           <Description>Rename...</Description>
-          <Count>72</Count>
+          <Count>73</Count>
         </Item>
       </Statistic>
       <Statistic Action="Toggle Line Breakpoint">
