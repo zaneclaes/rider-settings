@@ -62,7 +62,7 @@
           <IdeaActionID>FindUsages</IdeaActionID>
           <ShortCut>'⇧F12'</ShortCut>
           <Description>Find Usages</Description>
-          <Count>2</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Indent Selection">
