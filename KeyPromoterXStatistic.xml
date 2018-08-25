@@ -38,7 +38,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'F12' or '⌘Button1 Click' or '⌘I'</ShortCut>
           <Description>Declaration</Description>
-          <Count>6</Count>
+          <Count>7</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete...">
@@ -46,7 +46,7 @@
           <IdeaActionID>$Delete</IdeaActionID>
           <ShortCut>'⌦' or '⌫' or '⌘⌫'</ShortCut>
           <Description>Delete...</Description>
-          <Count>50</Count>
+          <Count>51</Count>
         </Item>
       </Statistic>
       <Statistic Action="Errors In Solution">
@@ -71,6 +71,14 @@
           <ShortCut>'⇥'</ShortCut>
           <Description>Indent Selection</Description>
           <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="NuGet">
+        <Item>
+          <IdeaActionID>ActivateNuGetToolWindow</IdeaActionID>
+          <ShortCut>'⌘7' or '⇧⌘7'</ShortCut>
+          <Description>NuGet</Description>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Properties...">
@@ -110,6 +118,14 @@
           <IdeaActionID>EditorUnindentSelection</IdeaActionID>
           <ShortCut>'⇧⇥' or '⌘/'</ShortCut>
           <Description>Unindent Line or Selection</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Unit Tests">
+        <Item>
+          <IdeaActionID>ActivateUnitTestsToolWindow</IdeaActionID>
+          <ShortCut>'⌘8' or '⇧⌘8'</ShortCut>
+          <Description>Unit Tests</Description>
           <Count>2</Count>
         </Item>
       </Statistic>
