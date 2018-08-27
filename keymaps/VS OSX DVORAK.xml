@@ -28,6 +28,7 @@
     <keyboard-shortcut first-keystroke="meta subtract" />
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="meta left" />
+    <keyboard-shortcut first-keystroke="shift alt tab" />
   </action>
   <action id="BuildCurrentProject">
     <keyboard-shortcut first-keystroke="meta x" />
@@ -125,6 +126,7 @@
     <keyboard-shortcut first-keystroke="shift meta subtract" />
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="meta right" />
+    <keyboard-shortcut first-keystroke="alt tab" />
   </action>
   <action id="Generate.Missing.Members.TypeScript" />
   <action id="GotoClass">
@@ -158,6 +160,7 @@
     <keyboard-shortcut first-keystroke="f12" />
     <mouse-shortcut keystroke="meta button1" />
   </action>
+  <action id="NextSplitter" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
     <keyboard-shortcut first-keystroke="ctrl right" />
@@ -167,6 +170,7 @@
   <action id="Pause">
     <keyboard-shortcut first-keystroke="meta pause" />
   </action>
+  <action id="PrevSplitter" />
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="shift meta open_bracket" />
     <keyboard-shortcut first-keystroke="ctrl left" />
