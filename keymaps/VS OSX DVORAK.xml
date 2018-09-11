@@ -28,6 +28,7 @@
     <keyboard-shortcut first-keystroke="meta subtract" />
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="meta left" />
+    <keyboard-shortcut first-keystroke="shift alt tab" />
   </action>
   <action id="BuildCurrentProject">
     <keyboard-shortcut first-keystroke="meta x" />
@@ -49,10 +50,17 @@
     <keyboard-shortcut first-keystroke="meta up" />
   </action>
   <action id="CollapseSelection" />
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="shift meta slash" />
+    <keyboard-shortcut first-keystroke="shift meta divide" />
+    <keyboard-shortcut first-keystroke="shift meta l" />
+  </action>
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="meta alt slash" />
     <keyboard-shortcut first-keystroke="meta alt divide" />
+    <keyboard-shortcut first-keystroke="meta l" />
   </action>
+  <action id="Console.TableResult.DeleteRows" />
   <action id="Database.OpenDbStorageAction">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -86,6 +94,7 @@
   <action id="EditorDecreaseFontSize">
     <keyboard-shortcut first-keystroke="meta open_bracket" />
   </action>
+  <action id="EditorDeleteLine" />
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="meta close_bracket" />
   </action>
@@ -101,7 +110,6 @@
     <keyboard-shortcut first-keystroke="ctrl a" />
   </action>
   <action id="EditorToggleCase" />
-  <action id="EditorToggleUseSoftWraps" />
   <action id="EditorUnindentSelection">
     <keyboard-shortcut first-keystroke="shift tab" />
     <keyboard-shortcut first-keystroke="meta slash" />
@@ -126,8 +134,12 @@
     <keyboard-shortcut first-keystroke="shift meta subtract" />
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="meta right" />
+    <keyboard-shortcut first-keystroke="alt tab" />
   </action>
   <action id="Generate.Missing.Members.TypeScript" />
+  <action id="GotoClass">
+    <keyboard-shortcut first-keystroke="shift meta i" />
+  </action>
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="f12" />
     <mouse-shortcut keystroke="meta button1" />
@@ -141,8 +153,7 @@
   <action id="GotoPreviousBookmark" />
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="shift meta alt t" />
-    <keyboard-shortcut first-keystroke="shift meta y" />
-    <keyboard-shortcut first-keystroke="meta i" />
+    <keyboard-shortcut first-keystroke="shift meta i" />
   </action>
   <action id="Images.Editor.ActualSize">
     <keyboard-shortcut first-keystroke="meta divide" />
@@ -157,6 +168,7 @@
     <keyboard-shortcut first-keystroke="f12" />
     <mouse-shortcut keystroke="meta button1" />
   </action>
+  <action id="NextSplitter" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
     <keyboard-shortcut first-keystroke="ctrl right" />
@@ -166,6 +178,7 @@
   <action id="Pause">
     <keyboard-shortcut first-keystroke="meta pause" />
   </action>
+  <action id="PrevSplitter" />
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="shift meta open_bracket" />
     <keyboard-shortcut first-keystroke="ctrl left" />
@@ -174,6 +187,7 @@
   <action id="QuickImplementations">
     <keyboard-shortcut first-keystroke="alt space" />
   </action>
+  <action id="RdCodeCleanupAction" />
   <action id="ReSharperGotoNextErrorInSolution">
     <keyboard-shortcut first-keystroke="shift alt page_down" />
     <keyboard-shortcut first-keystroke="alt semicolon" />
@@ -202,6 +216,7 @@
   <action id="RiderUnitTestRunCurrentSessionAction" />
   <action id="RiderUnitTestRunCurrentSessionTwAction" />
   <action id="RiderUnitTestRunSolutionAction" />
+  <action id="RiderUnitTestRunSolutionTwAction" />
   <action id="RiderUnitTestSessionAbortAction" />
   <action id="RiderUnitTestSessionRerunFailedTestsAction" />
   <action id="RiderUnitTestSessionRunCurrentSessionAction" />
@@ -217,7 +232,6 @@
     <keyboard-shortcut first-keystroke="alt multiply" />
   </action>
   <action id="ShowSettings" />
-  <action id="SilentCodeCleanup" />
   <action id="SurroundWithLiveTemplate" />
   <action id="Switcher" />
   <action id="ToggleBookmark" />
