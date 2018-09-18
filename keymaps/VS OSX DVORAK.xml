@@ -110,6 +110,7 @@
     <keyboard-shortcut first-keystroke="ctrl a" />
   </action>
   <action id="EditorToggleCase" />
+  <action id="EditorToggleUseSoftWraps" />
   <action id="EditorUnindentSelection">
     <keyboard-shortcut first-keystroke="shift tab" />
     <keyboard-shortcut first-keystroke="meta slash" />
@@ -232,6 +233,7 @@
     <keyboard-shortcut first-keystroke="alt multiply" />
   </action>
   <action id="ShowSettings" />
+  <action id="SilentCodeCleanup" />
   <action id="SurroundWithLiveTemplate" />
   <action id="Switcher" />
   <action id="ToggleBookmark" />
