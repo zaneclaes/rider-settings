@@ -19,7 +19,6 @@
   </action>
   <action id="CloseActiveTab">
     <keyboard-shortcut first-keystroke="meta comma" />
-    <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="meta alt slash" />
