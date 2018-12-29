@@ -1,15 +1,15 @@
 <scheme name="CustomDark" version="142" parent_scheme="ReSharper Dark">
-  <option name="FONT_SCALE" value="1.0" />
+  <option name="FONT_SCALE" value="2.0" />
   <metaInfo>
     <property name="created">2017-10-02T04:09:21</property>
     <property name="ide">Rider</property>
     <property name="ideVersion">2017.1.2.0.0</property>
-    <property name="modified">2017-10-11T08:28:18</property>
+    <property name="modified">2018-12-29T04:27:09</property>
     <property name="originalScheme">ReSharper Dark copy</property>
   </metaInfo>
-  <option name="EDITOR_FONT_SIZE" value="12" />
-  <option name="CONSOLE_LINE_SPACING" value="1.25" />
-  <option name="EDITOR_FONT_NAME" value="Menlo" />
+  <option name="LINE_SPACING" value="1.0" />
+  <option name="EDITOR_FONT_SIZE" value="36" />
+  <option name="EDITOR_FONT_NAME" value="Inconsolata" />
   <attributes>
     <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES">
       <value>
