@@ -29,14 +29,21 @@
   <action id="Diff.ShowDiff" />
   <action id="Diff.ShowSettingsPopup" />
   <action id="DirDiffMenu.SynchronizeDiff.All" />
+  <action id="EditorChooseLookupItemCompleteStatement" />
   <action id="EditorChooseLookupItemDot" />
+  <action id="EditorCodeBlockEnd" />
   <action id="EditorCodeBlockStart" />
+  <action id="EditorCompleteStatement" />
   <action id="EditorDecreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>
   <action id="EditorDuplicate" />
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl equals" />
+  </action>
+  <action id="EditorIndentSelection">
+    <keyboard-shortcut first-keystroke="tab" />
+    <keyboard-shortcut first-keystroke="ctrl close_bracket" />
   </action>
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
@@ -111,13 +118,18 @@
     <mouse-shortcut keystroke="alt button2" />
   </action>
   <action id="ReSharperGotoNextErrorInSolution">
-    <keyboard-shortcut first-keystroke="ctrl enter" />
+    <keyboard-shortcut first-keystroke="shift ctrl enter" />
   </action>
   <action id="ReSharperNavigateTo">
     <keyboard-shortcut first-keystroke="shift ctrl d" />
   </action>
   <action id="RecentChangedFiles" />
   <action id="RecentFiles" />
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift f6" />
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+  </action>
+  <action id="ReplaceInPath" />
   <action id="RiderUnitTestDebugContextTwAction" />
   <action id="RiderUnitTestRunSolutionTwAction" />
   <action id="RunDashboard.CopyConfiguration" />
@@ -129,6 +141,10 @@
     <keyboard-shortcut first-keystroke="page_up" />
   </action>
   <action id="SendEOF" />
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="alt enter" />
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="ctrl period" />
   </action>
