@@ -1,16 +1,15 @@
 <application>
   <component name="MaterialThemeConfig">
-    <option name="allowDataCollection" value="true" />
-    <option name="compactDropdowns" value="true" />
-    <option name="compactSidebar" value="true" />
     <option name="darkTitleBar" value="true" />
-    <option name="isCompactMenus" value="true" />
     <option name="isCompactStatusBar" value="true" />
     <option name="isContrastMode" value="true" />
     <option name="isHighContrast" value="true" />
     <option name="isWizardShown" value="true" />
-    <option name="accentColor" value="6ea9d6" />
-    <option name="userId" value="-11d8ffa:167eca90d6e:-8000" />
+    <option name="pristineConfig" value="false" />
+    <option name="settingsSelectedTab" value="6" />
+    <option name="accentColor" value="55bbff" />
+    <option name="selectedTheme" value="DARKER" />
+    <option name="userId" value="11a0413:167f7832c01:-8000" />
     <option name="version" value="3.3.0" />
   </component>
 </application>
