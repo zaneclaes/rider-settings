@@ -22,6 +22,16 @@
     <keyboard-shortcut first-keystroke="ctrl up" />
   </action>
   <action id="CollapseSelection" />
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="shift ctrl slash" />
+    <keyboard-shortcut first-keystroke="shift ctrl divide" />
+    <keyboard-shortcut first-keystroke="shift ctrl m" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="ctrl slash" />
+    <keyboard-shortcut first-keystroke="ctrl divide" />
+    <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
   <action id="CompareTwoFiles" />
   <action id="Console.Execute.Multiline" />
   <action id="Diff.NextChange" />
@@ -47,7 +57,9 @@
   </action>
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
+  <action id="EditorMatchBrace" />
   <action id="EditorScrollDown" />
+  <action id="EditorScrollToCenter" />
   <action id="EditorScrollUp" />
   <action id="EditorSelectWord" />
   <action id="EditorSplitLine" />
@@ -134,6 +146,7 @@
   <action id="RiderUnitTestRunSolutionTwAction" />
   <action id="RunDashboard.CopyConfiguration" />
   <action id="RunDashboard.ShowConfigurations" />
+  <action id="ScrollTreeToCenter" />
   <action id="SearchEverywhere.NavigateToNextGroup">
     <keyboard-shortcut first-keystroke="page_down" />
   </action>
@@ -151,13 +164,12 @@
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
+  <action id="TodoViewGroupByShowModules" />
   <action id="Unsplit">
     <keyboard-shortcut first-keystroke="shift ctrl t" />
   </action>
   <action id="Vcs.Log.FocusTextFilter" />
-  <action id="Vcs.ShowMessageHistory">
-    <keyboard-shortcut first-keystroke="ctrl m" />
-  </action>
+  <action id="Vcs.ShowMessageHistory" />
   <action id="Vcs.UpdateProject" />
   <action id="ViewSource" />
   <action id="XDebugger.CopyWatch" />
