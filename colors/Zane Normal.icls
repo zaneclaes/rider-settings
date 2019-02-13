@@ -1,15 +1,21 @@
-<scheme name="CustomDark" version="142" parent_scheme="ReSharper Dark">
-  <option name="FONT_SCALE" value="2.0" />
+<scheme name="Zane Normal" version="142" parent_scheme="ReSharper Dark">
+  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2017-10-02T04:09:21</property>
+    <property name="created">2019-02-13T11:18:17</property>
     <property name="ide">Rider</property>
-    <property name="ideVersion">2017.1.2.0.0</property>
-    <property name="modified">2018-12-29T04:27:09</property>
-    <property name="originalScheme">ReSharper Dark copy</property>
+    <property name="ideVersion">2018.3.3.0.0</property>
+    <property name="modified">2019-02-13T11:42:41</property>
+    <property name="originalScheme">Zane Large HDPI</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
-  <option name="EDITOR_FONT_SIZE" value="36" />
-  <option name="EDITOR_FONT_NAME" value="Inconsolata" />
+  <font>
+    <option name="EDITOR_FONT_NAME" value="Inconsolata" />
+    <option name="EDITOR_FONT_SIZE" value="13" />
+  </font>
+  <font>
+    <option name="EDITOR_FONT_NAME" value="Fira Code" />
+    <option name="EDITOR_FONT_SIZE" value="13" />
+  </font>
   <attributes>
     <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES">
       <value>

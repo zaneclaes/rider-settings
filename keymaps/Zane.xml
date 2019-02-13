@@ -1,0 +1,177 @@
+<keymap version="1" name="Zane" parent="Default for GNOME">
+  <action id="Back">
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
+  <action id="ChangesView.Diff" />
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="shift ctrl w" />
+  </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="CollapseAll">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
+  <action id="CollapseExpandableComponent">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+    <keyboard-shortcut first-keystroke="ctrl up" />
+  </action>
+  <action id="CollapseSelection" />
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="shift ctrl slash" />
+    <keyboard-shortcut first-keystroke="shift ctrl divide" />
+    <keyboard-shortcut first-keystroke="shift ctrl m" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="ctrl slash" />
+    <keyboard-shortcut first-keystroke="ctrl divide" />
+    <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
+  <action id="CompareTwoFiles" />
+  <action id="Console.Execute.Multiline" />
+  <action id="Diff.NextChange" />
+  <action id="Diff.PrevChange" />
+  <action id="Diff.ShowDiff" />
+  <action id="Diff.ShowSettingsPopup" />
+  <action id="DirDiffMenu.SynchronizeDiff.All" />
+  <action id="EditorChooseLookupItemCompleteStatement" />
+  <action id="EditorChooseLookupItemDot" />
+  <action id="EditorCodeBlockEnd" />
+  <action id="EditorCodeBlockStart" />
+  <action id="EditorCompleteStatement" />
+  <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="ctrl minus" />
+  </action>
+  <action id="EditorDuplicate" />
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="ctrl equals" />
+  </action>
+  <action id="EditorIndentSelection">
+    <keyboard-shortcut first-keystroke="tab" />
+    <keyboard-shortcut first-keystroke="ctrl close_bracket" />
+  </action>
+  <action id="EditorLookupDown" />
+  <action id="EditorLookupUp" />
+  <action id="EditorMatchBrace" />
+  <action id="EditorScrollDown" />
+  <action id="EditorScrollToCenter" />
+  <action id="EditorScrollUp" />
+  <action id="EditorSelectWord" />
+  <action id="EditorSplitLine" />
+  <action id="EditorUnSelectWord" />
+  <action id="EditorUnindentSelection">
+    <keyboard-shortcut first-keystroke="shift tab" />
+    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
+  </action>
+  <action id="Exit">
+    <keyboard-shortcut first-keystroke="ctrl q" />
+  </action>
+  <action id="ExpandAll">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
+  <action id="ExpandExpandableComponent">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+    <keyboard-shortcut first-keystroke="ctrl down" />
+  </action>
+  <action id="FileChooser.GotoDesktop" />
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="f3" />
+  </action>
+  <action id="Forward">
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="GotoDeclaration">
+    <mouse-shortcut keystroke="control button1" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift ctrl n" />
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
+  </action>
+  <action id="GotoImplementation">
+    <mouse-shortcut keystroke="control alt button1" />
+  </action>
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="ctrl g" />
+  </action>
+  <action id="GotoTest" />
+  <action id="Images.Editor.ActualSize">
+    <keyboard-shortcut first-keystroke="ctrl divide" />
+  </action>
+  <action id="Images.Editor.ZoomIn">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
+  <action id="Images.Editor.ZoomOut">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
+  <action id="Images.ShowThumbnails" />
+  <action id="MethodOverloadSwitchDown" />
+  <action id="MethodOverloadSwitchUp" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="shift ctrl e" />
+  </action>
+  <action id="QuickJavaDoc">
+    <mouse-shortcut keystroke="alt button2" />
+  </action>
+  <action id="ReSharperGotoNextErrorInSolution">
+    <keyboard-shortcut first-keystroke="shift ctrl enter" />
+  </action>
+  <action id="ReSharperNavigateTo">
+    <keyboard-shortcut first-keystroke="shift ctrl d" />
+  </action>
+  <action id="RecentChangedFiles" />
+  <action id="RecentFiles" />
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift f6" />
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+  </action>
+  <action id="ReplaceInPath" />
+  <action id="RiderUnitTestDebugContextTwAction" />
+  <action id="RiderUnitTestRunSolutionTwAction" />
+  <action id="RunDashboard.CopyConfiguration" />
+  <action id="RunDashboard.ShowConfigurations" />
+  <action id="ScrollTreeToCenter" />
+  <action id="SearchEverywhere.NavigateToNextGroup">
+    <keyboard-shortcut first-keystroke="page_down" />
+  </action>
+  <action id="SearchEverywhere.NavigateToPrevGroup">
+    <keyboard-shortcut first-keystroke="page_up" />
+  </action>
+  <action id="SendEOF" />
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="alt enter" />
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
+  <action id="ShowSettings">
+    <keyboard-shortcut first-keystroke="ctrl period" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="ctrl t" />
+  </action>
+  <action id="TodoViewGroupByShowModules" />
+  <action id="Unsplit">
+    <keyboard-shortcut first-keystroke="shift ctrl t" />
+  </action>
+  <action id="Vcs.Log.FocusTextFilter" />
+  <action id="Vcs.ShowMessageHistory" />
+  <action id="Vcs.UpdateProject" />
+  <action id="ViewSource" />
+  <action id="XDebugger.CopyWatch" />
+  <action id="openAssertEqualsDiff" />
+</keymap>
