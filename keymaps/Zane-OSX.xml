@@ -44,6 +44,7 @@
   <action id="CollapseRegion">
     <keyboard-shortcut first-keystroke="ctrl subtract" />
     <keyboard-shortcut first-keystroke="ctrl up" />
+    <keyboard-shortcut first-keystroke="meta up" />
   </action>
   <action id="CollapseSelection" />
   <action id="CommentByBlockComment">
@@ -131,6 +132,7 @@
   <action id="ExpandRegion">
     <keyboard-shortcut first-keystroke="ctrl add" />
     <keyboard-shortcut first-keystroke="ctrl down" />
+    <keyboard-shortcut first-keystroke="meta down" />
   </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="Find">
