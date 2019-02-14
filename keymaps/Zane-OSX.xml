@@ -100,6 +100,14 @@
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
   <action id="EditorMatchBrace" />
+  <action id="EditorNextWordWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl right" />
+    <keyboard-shortcut first-keystroke="shift meta right" />
+  </action>
+  <action id="EditorPreviousWordWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl left" />
+    <keyboard-shortcut first-keystroke="shift meta left" />
+  </action>
   <action id="EditorScrollDown" />
   <action id="EditorScrollToCenter" />
   <action id="EditorScrollUp" />
