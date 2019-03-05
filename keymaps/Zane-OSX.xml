@@ -200,8 +200,8 @@
     <mouse-shortcut keystroke="alt button2" />
   </action>
   <action id="ReSharperGotoNextErrorInSolution">
-    <keyboard-shortcut first-keystroke="shift ctrl enter" />
-    <keyboard-shortcut first-keystroke="shift meta enter" />
+    <keyboard-shortcut first-keystroke="shift meta space" />
+    <keyboard-shortcut first-keystroke="ctrl meta space" />
   </action>
   <action id="ReSharperNavigateTo">
     <keyboard-shortcut first-keystroke="shift ctrl d" />
@@ -232,8 +232,7 @@
   <action id="SendEOF" />
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="alt enter" />
-    <keyboard-shortcut first-keystroke="ctrl enter" />
-    <keyboard-shortcut first-keystroke="meta enter" />
+    <keyboard-shortcut first-keystroke="meta space" />
   </action>
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="ctrl period" />
