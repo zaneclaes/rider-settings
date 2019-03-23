@@ -24,10 +24,13 @@
     <keyboard-shortcut first-keystroke="alt back_space" />
     <keyboard-shortcut first-keystroke="meta semicolon" />
   </action>
+  <action id="AutoIndentLines">
+    <keyboard-shortcut first-keystroke="ctrl alt i" />
+    <keyboard-shortcut first-keystroke="meta minus" />
+  </action>
   <action id="Back">
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="alt left" />
-    <keyboard-shortcut first-keystroke="meta left" />
   </action>
   <action id="BuildCurrentProject">
     <keyboard-shortcut first-keystroke="meta x" />
@@ -103,17 +106,25 @@
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="meta close_bracket" />
   </action>
+  <action id="EditorIndentLineOrSelection">
+    <keyboard-shortcut first-keystroke="meta equals" />
+  </action>
   <action id="EditorIndentSelection">
     <keyboard-shortcut first-keystroke="tab" />
     <keyboard-shortcut first-keystroke="ctrl close_bracket" />
-    <keyboard-shortcut first-keystroke="meta equals" />
   </action>
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
   <action id="EditorMatchBrace" />
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="meta right" />
+  </action>
   <action id="EditorNextWordWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl right" />
     <keyboard-shortcut first-keystroke="shift meta right" />
+  </action>
+  <action id="EditorPreviousWord">
+    <keyboard-shortcut first-keystroke="meta left" />
   </action>
   <action id="EditorPreviousWordWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl left" />
@@ -159,7 +170,6 @@
   <action id="Forward">
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="alt right" />
-    <keyboard-shortcut first-keystroke="meta right" />
   </action>
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="control button1" />
