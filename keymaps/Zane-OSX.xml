@@ -234,7 +234,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl r" />
     <keyboard-shortcut first-keystroke="meta p" />
   </action>
-  <action id="ReplaceInPath" />
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="shift meta d" />
+  </action>
   <action id="RiderUnitTestDebugContextTwAction" />
   <action id="RiderUnitTestRunSolutionTwAction" />
   <action id="RunDashboard.CopyConfiguration" />
