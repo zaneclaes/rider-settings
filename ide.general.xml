@@ -35,6 +35,6 @@
     <entry key="mac.editor.thumb.darcula.fill.max" value="163" />
     <entry key="ide.win.file.chooser.native" value="true" />
     <entry key="parameter.info.max.visible.rows" value="10" />
-    <entry key="ide.win.frame.decoration" value="false" />
+    <entry key="ide.win.frame.decoration" value="true" />
   </component>
 </application>
