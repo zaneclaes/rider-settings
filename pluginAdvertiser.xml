@@ -56,11 +56,56 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.asax">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.rider.razor" />
+              <option name="myPluginName" value="Support for ASP.NET and Razor" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.ascx">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.rider.razor" />
+              <option name="myPluginName" value="Support for ASP.NET and Razor" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.ashx">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.rider.razor" />
+              <option name="myPluginName" value="Support for ASP.NET and Razor" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.asmdef">
           <value>
             <plugin>
               <option name="myPluginId" value="com.intellij.resharper.unity" />
               <option name="myPluginName" value="Unity Support" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.asmx">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.rider.razor" />
+              <option name="myPluginName" value="Support for ASP.NET and Razor" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.aspx">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.rider.razor" />
+              <option name="myPluginName" value="Support for ASP.NET and Razor" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -232,6 +277,15 @@
             <plugin>
               <option name="myPluginId" value="com.intellij" />
               <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.cshtml">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.rider.razor" />
+              <option name="myPluginName" value="Support for ASP.NET and Razor" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -425,6 +479,15 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.feature">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="gherkin" />
+              <option name="myPluginName" value="Gherkin" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.filelayout">
           <value>
             <plugin>
@@ -582,11 +645,38 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.handlebars">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.dmarcotte.handlebars" />
+              <option name="myPluginName" value="Handlebars/Mustache" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.har">
           <value>
             <plugin>
               <option name="myPluginId" value="com.intellij" />
               <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.hbs">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.dmarcotte.handlebars" />
+              <option name="myPluginName" value="Handlebars/Mustache" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.hgignore">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="hg4idea" />
+              <option name="myPluginName" value="Mercurial" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -933,6 +1023,15 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.master">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.rider.razor" />
+              <option name="myPluginName" value="Support for ASP.NET and Razor" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.md">
           <value>
             <plugin>
@@ -992,6 +1091,15 @@
             <plugin>
               <option name="myPluginId" value="com.intellij" />
               <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.mustache">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.dmarcotte.handlebars" />
+              <option name="myPluginName" value="Handlebars/Mustache" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -1266,6 +1374,15 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.razor">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.rider.razor" />
+              <option name="myPluginName" value="Support for ASP.NET and Razor" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.regexp">
           <value>
             <plugin>
@@ -1374,6 +1491,15 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.skin">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.rider.razor" />
+              <option name="myPluginName" value="Support for ASP.NET and Razor" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.sln">
           <value>
             <plugin>
@@ -1433,6 +1559,15 @@
             <plugin>
               <option name="myPluginId" value="com.intellij" />
               <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.svc">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.rider.razor" />
+              <option name="myPluginName" value="Support for ASP.NET and Razor" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -1622,6 +1757,15 @@
             <plugin>
               <option name="myPluginId" value="com.intellij" />
               <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.uml">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.diagram" />
+              <option name="myPluginName" value="UML" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -2261,6 +2405,11 @@
                       <FeaturePluginData displayName=".NET Project" pluginName="IDEA CORE" pluginId="com.intellij" />
                     </value>
                   </entry>
+                  <entry key="DotNetPublishAndUpload">
+                    <value>
+                      <FeaturePluginData displayName="Publish to custom server" pluginName="Support for publishing to custom servers" pluginId="com.jetbrains.rider.publish.webDeploy" />
+                    </value>
+                  </entry>
                   <entry key="DotNetStaticMethod">
                     <value>
                       <FeaturePluginData displayName=".NET Static Method" pluginName="IDEA CORE" pluginId="com.intellij" />
@@ -2319,6 +2468,11 @@
                   <entry key="UwpProject">
                     <value>
                       <FeaturePluginData displayName="UWP" pluginName="IDEA CORE" pluginId="com.intellij" />
+                    </value>
+                  </entry>
+                  <entry key="XSLT">
+                    <value>
+                      <FeaturePluginData displayName="XSLT" pluginName="XPathView + XSLT" pluginId="XPathView" />
                     </value>
                   </entry>
                   <entry key="XamarinIOSProject">
