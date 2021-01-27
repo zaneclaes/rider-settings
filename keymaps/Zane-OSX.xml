@@ -16,14 +16,24 @@
     <keyboard-shortcut first-keystroke="shift alt back_space" />
     <keyboard-shortcut first-keystroke="shift meta semicolon" />
   </action>
+  <action id="$SelectAll">
+    <keyboard-shortcut first-keystroke="ctrl a" />
+    <keyboard-shortcut first-keystroke="meta a" />
+  </action>
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="alt back_space" />
     <keyboard-shortcut first-keystroke="meta semicolon" />
   </action>
+  <action id="AutoIndentLines">
+    <keyboard-shortcut first-keystroke="ctrl alt i" />
+    <keyboard-shortcut first-keystroke="meta minus" />
+  </action>
   <action id="Back">
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="alt left" />
-    <keyboard-shortcut first-keystroke="meta left" />
+  </action>
+  <action id="BuildCurrentProject">
+    <keyboard-shortcut first-keystroke="meta x" />
   </action>
   <action id="ChangesView.Diff" />
   <action id="CloseAllEditorsButActive">
@@ -78,6 +88,9 @@
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="shift meta semicolon" />
   </action>
+  <action id="Editor SelectAll">
+    <keyboard-shortcut first-keystroke="meta a" />
+  </action>
   <action id="Editor Undo">
     <keyboard-shortcut first-keystroke="meta semicolon" />
   </action>
@@ -93,17 +106,25 @@
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="meta close_bracket" />
   </action>
+  <action id="EditorIndentLineOrSelection">
+    <keyboard-shortcut first-keystroke="meta equals" />
+  </action>
   <action id="EditorIndentSelection">
     <keyboard-shortcut first-keystroke="tab" />
     <keyboard-shortcut first-keystroke="ctrl close_bracket" />
-    <keyboard-shortcut first-keystroke="meta equals" />
   </action>
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
   <action id="EditorMatchBrace" />
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="meta right" />
+  </action>
   <action id="EditorNextWordWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl right" />
     <keyboard-shortcut first-keystroke="shift meta right" />
+  </action>
+  <action id="EditorPreviousWord">
+    <keyboard-shortcut first-keystroke="meta left" />
   </action>
   <action id="EditorPreviousWordWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl left" />
@@ -149,7 +170,6 @@
   <action id="Forward">
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="alt right" />
-    <keyboard-shortcut first-keystroke="meta right" />
   </action>
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="control button1" />
@@ -209,18 +229,25 @@
   </action>
   <action id="RecentChangedFiles" />
   <action id="RecentFiles" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+    <keyboard-shortcut first-keystroke="shift meta r" />
+  </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift f6" />
     <keyboard-shortcut first-keystroke="shift ctrl r" />
-    <keyboard-shortcut first-keystroke="meta p" />
+    <keyboard-shortcut first-keystroke="shift meta p" />
   </action>
-  <action id="ReplaceInPath" />
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="shift meta d" />
+  </action>
   <action id="RiderUnitTestDebugContextTwAction" />
   <action id="RiderUnitTestRunSolutionTwAction" />
   <action id="RunDashboard.CopyConfiguration" />
   <action id="RunDashboard.ShowConfigurations" />
   <action id="SaveAll">
     <keyboard-shortcut first-keystroke="meta o" />
+    <keyboard-shortcut first-keystroke="meta p" />
   </action>
   <action id="ScrollTreeToCenter" />
   <action id="SearchEverywhere.NavigateToNextGroup">

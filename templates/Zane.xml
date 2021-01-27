@@ -1,0 +1,8 @@
+<templateSet group="Zane">
+  <template name="fc" value="import * as React from 'react';&#10;&#10;type Props = {&#10; $END$&#10;};&#10;&#10;const $TM_FILENAME_BASE$: React.FunctionComponent&lt;Props&gt; = (props) =&gt; {&#10;  return (&#10;    &lt;div&gt;&#10;    &#10;    &lt;/div&gt;&#10;  );&#10;};&#10;&#10;export default $TM_FILENAME_BASE$;" description="Create Functional Component" toReformat="false" toShortenFQNames="true">
+    <variable name="TM_FILENAME_BASE" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
