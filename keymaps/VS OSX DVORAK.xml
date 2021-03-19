@@ -152,6 +152,9 @@
     <keyboard-shortcut first-keystroke="alt tab" />
   </action>
   <action id="Generate.Missing.Members.TypeScript" />
+  <action id="GotoClass">
+    <keyboard-shortcut first-keystroke="shift ctrl alt g" />
+  </action>
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="f12" />
     <mouse-shortcut keystroke="meta button1" />
@@ -161,6 +164,7 @@
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift meta i" />
     <keyboard-shortcut first-keystroke="meta i" />
+    <keyboard-shortcut first-keystroke="shift meta g" />
   </action>
   <action id="GotoNextBookmark" />
   <action id="GotoPreviousBookmark" />
@@ -206,6 +210,7 @@
     <keyboard-shortcut first-keystroke="alt semicolon" />
     <keyboard-shortcut first-keystroke="shift meta space" />
   </action>
+  <action id="ReSharperNavigateTo" />
   <action id="RecentChangedFiles" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="meta alt enter" />
