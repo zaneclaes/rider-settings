@@ -34,10 +34,14 @@
   </action>
   <action id="ChangesView.UnshelveSilently" />
   <action id="CloseAllEditors">
-    <keyboard-shortcut first-keystroke="shift meta comma" />
+    <keyboard-shortcut first-keystroke="shift ctrl meta alt comma" />
   </action>
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="shift meta less" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt comma" />
+  </action>
+  <action id="CloseAllUnmodifiedEditors">
+    <keyboard-shortcut first-keystroke="shift meta comma" />
   </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="meta f4" />
