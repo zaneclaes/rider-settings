@@ -214,6 +214,7 @@
     <mouse-shortcut keystroke="meta button1" />
     <keyboard-shortcut first-keystroke="meta e" />
     <keyboard-shortcut first-keystroke="shift meta d" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt e" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift meta i" />
@@ -223,6 +224,12 @@
   <action id="GotoNextBookmark" />
   <action id="GotoPreviousBookmark" />
   <action id="GotoSymbol" />
+  <action id="GotoTypeDeclaration">
+    <keyboard-shortcut first-keystroke="shift meta f11" />
+    <mouse-shortcut keystroke="shift meta button1" />
+    <mouse-shortcut keystroke="shift button2" />
+    <keyboard-shortcut first-keystroke="shift meta e" />
+  </action>
   <action id="GotoUrlAction" />
   <action id="Images.Editor.ActualSize">
     <keyboard-shortcut first-keystroke="meta divide" />
@@ -258,7 +265,6 @@
     <keyboard-shortcut first-keystroke="shift meta open_bracket" />
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
     <keyboard-shortcut first-keystroke="shift meta period" />
-    <keyboard-shortcut first-keystroke="shift meta e" />
   </action>
   <action id="QuickImplementations">
     <keyboard-shortcut first-keystroke="alt space" />
