@@ -323,6 +323,7 @@
     <keyboard-shortcut first-keystroke="shift meta h" />
     <keyboard-shortcut first-keystroke="shift ctrl meta u" />
     <keyboard-shortcut first-keystroke="shift ctrl alt f" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt u" />
   </action>
   <action id="ResizeToolWindowRight" />
   <action id="RiderNuGetToggleInfoExpanderAction" />
