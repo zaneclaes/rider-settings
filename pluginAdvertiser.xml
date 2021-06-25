@@ -42,6 +42,11 @@
                       <FeaturePluginData displayName=".NET Project" pluginName="IDEA CORE" pluginId="com.intellij" bundled="true" />
                     </value>
                   </entry>
+                  <entry key="DotNetPublishAndUpload">
+                    <value>
+                      <FeaturePluginData displayName="Publish to custom server" pluginName="Support for publishing to custom servers" pluginId="com.jetbrains.rider.publish.webDeploy" bundled="true" />
+                    </value>
+                  </entry>
                   <entry key="DotNetStaticMethod">
                     <value>
                       <FeaturePluginData displayName=".NET Static Method" pluginName="IDEA CORE" pluginId="com.intellij" bundled="true" />
