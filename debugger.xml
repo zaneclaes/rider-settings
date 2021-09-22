@@ -7,10 +7,12 @@
     <debuggers>
       <debugger id="dotnet_debugger">
         <configuration>
-          <option name="allowTypingDuringDebug" value="true" />
-          <option name="remappedSourceLocationsMap">
-            <map />
-          </option>
+          <option name="breakOnUserUnhandledExceptions" value="true" />
+        </configuration>
+      </debugger>
+      <debugger id="javascript">
+        <configuration>
+          <custom-object-presentation />
         </configuration>
       </debugger>
     </debuggers>
