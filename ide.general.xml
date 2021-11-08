@@ -57,6 +57,5 @@
     <entry key="ea.enable.developers.list" value="false" />
     <entry key="vcs.enable.add.ignored.directories.to.exclude" value="false" />
     <entry key="ide.experimental.ui.toolwindow.stripes" value="true" />
-    <entry key="rider.enable.designer.winForms" value="true" />
   </component>
 </application>
