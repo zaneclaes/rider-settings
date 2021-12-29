@@ -36,6 +36,9 @@
     <keyboard-shortcut first-keystroke="shift meta x" />
   </action>
   <action id="ChangesView.UnshelveSilently" />
+  <action id="CleanSolutionAction">
+    <keyboard-shortcut first-keystroke="shift meta p" />
+  </action>
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="shift ctrl meta alt comma" />
   </action>
@@ -354,7 +357,6 @@
   <action id="Replace">
     <keyboard-shortcut first-keystroke="ctrl h" />
     <keyboard-shortcut first-keystroke="meta alt u" />
-    <keyboard-shortcut first-keystroke="shift meta p" />
   </action>
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="shift meta h" />
