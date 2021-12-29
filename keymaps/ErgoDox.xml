@@ -77,8 +77,10 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt open_bracket" />
     <keyboard-shortcut first-keystroke="meta minus" />
   </action>
+  <action id="Console.Execute.Multiline" />
   <action id="Console.TableResult.CompareCells" />
   <action id="Console.TableResult.DeleteRows" />
+  <action id="Console.TableResult.Submit" />
   <action id="Database.OpenDbStorageAction">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -87,6 +89,8 @@
   <action id="Diff.FocusOppositePane" />
   <action id="Diff.FocusOppositePaneAndScroll" />
   <action id="Diff.ShowSettingsPopup" />
+  <action id="DirDiffMenu.SynchronizeDiff.All" />
+  <action id="Docker.RemoteServers.StartComposeService" />
   <action id="DomElementsTreeView.DeleteElement">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
@@ -205,6 +209,7 @@
     <keyboard-shortcut first-keystroke="meta alt right" />
     <keyboard-shortcut first-keystroke="shift meta equals" />
   </action>
+  <action id="EditorStartNewLineBefore" />
   <action id="EditorTextEnd" />
   <action id="EditorTextEndWithSelection" />
   <action id="EditorTextStartWithSelection" />
@@ -386,6 +391,9 @@
   <action id="RiderUnitTestTreeCollapseAllAction">
     <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="meta enter" />
+  </action>
   <action id="SaveAll">
     <keyboard-shortcut first-keystroke="shift meta o" />
     <keyboard-shortcut first-keystroke="shift meta b" />
@@ -408,12 +416,14 @@
   </action>
   <action id="ShowSettings" />
   <action id="SilentCodeCleanup" />
+  <action id="SplitChooser.Duplicate" />
   <action id="SurroundWithLiveTemplate" />
   <action id="SwitchHeaderSource" />
   <action id="Switcher" />
   <action id="Terminal.ClearBuffer">
     <keyboard-shortcut first-keystroke="meta l" />
   </action>
+  <action id="Terminal.SmartCommandExecution.Run" />
   <action id="ToggleBookmark" />
   <action id="Tree-selectLastExtendSelection" />
   <action id="TypeHierarchy" />
@@ -426,6 +436,7 @@
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="Vcs.Log.FocusTextFilter" />
+  <action id="ViewSource" />
   <action id="XDebugger.JumpToSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
