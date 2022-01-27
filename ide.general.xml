@@ -38,7 +38,7 @@
     <entry key="use.tabbed.welcome.screen" value="false" />
     <entry key="ide.new.project.model" value="false" />
     <entry key="ide.mac.bigsur.window.with.tabs.enabled" value="false" />
-    <entry key="rider.enable.designer.winForms" value="false" />
+    <entry key="rider.enable.designer.winForms" value="true" />
     <entry key="ide.lookup.shrink" value="true" />
   </component>
 </application>
