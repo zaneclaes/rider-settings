@@ -5,9 +5,9 @@
     </data-views>
     <general />
     <debuggers>
-      <debugger id="javascript">
+      <debugger id="dotnet_debugger">
         <configuration>
-          <custom-object-presentation />
+          <option name="breakOnUserUnhandledExceptions" value="true" />
         </configuration>
       </debugger>
     </debuggers>

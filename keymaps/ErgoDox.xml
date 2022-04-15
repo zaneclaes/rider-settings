@@ -1,4 +1,4 @@
-<keymap version="1" name="VS OSX DVORAK" parent="Visual Studio OSX">
+<keymap version="1" name="ErgoDox" parent="Visual Studio OSX">
   <action id="$Copy">
     <keyboard-shortcut first-keystroke="meta j" />
   </action>
@@ -25,7 +25,6 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt c" />
   </action>
   <action id="Back">
-    <keyboard-shortcut first-keystroke="meta minus" />
     <keyboard-shortcut first-keystroke="meta subtract" />
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="shift alt tab" />
@@ -37,6 +36,9 @@
     <keyboard-shortcut first-keystroke="shift meta x" />
   </action>
   <action id="ChangesView.UnshelveSilently" />
+  <action id="CleanSolutionAction">
+    <keyboard-shortcut first-keystroke="shift meta p" />
+  </action>
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="shift ctrl meta alt comma" />
   </action>
@@ -54,13 +56,21 @@
   <action id="CodeCleanup">
     <keyboard-shortcut first-keystroke="shift meta j" />
   </action>
+  <action id="CollapseAll">
+    <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
   <action id="CollapseBlock" />
+  <action id="CollapseExpandableComponent">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
   <action id="CollapseRegion">
     <keyboard-shortcut first-keystroke="meta up" />
   </action>
   <action id="CollapseSelection" />
   <action id="CommentByBlockComment">
     <keyboard-shortcut first-keystroke="shift meta z" />
+    <keyboard-shortcut first-keystroke="meta slash" />
   </action>
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="meta alt slash" />
@@ -68,9 +78,12 @@
     <keyboard-shortcut first-keystroke="meta l" />
     <keyboard-shortcut first-keystroke="meta z" />
     <keyboard-shortcut first-keystroke="shift ctrl alt open_bracket" />
+    <keyboard-shortcut first-keystroke="meta minus" />
   </action>
+  <action id="Console.Execute.Multiline" />
   <action id="Console.TableResult.CompareCells" />
   <action id="Console.TableResult.DeleteRows" />
+  <action id="Console.TableResult.Submit" />
   <action id="Database.OpenDbStorageAction">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -79,6 +92,8 @@
   <action id="Diff.FocusOppositePane" />
   <action id="Diff.FocusOppositePaneAndScroll" />
   <action id="Diff.ShowSettingsPopup" />
+  <action id="DirDiffMenu.SynchronizeDiff.All" />
+  <action id="Docker.RemoteServers.StartComposeService" />
   <action id="DomElementsTreeView.DeleteElement">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
@@ -197,6 +212,7 @@
     <keyboard-shortcut first-keystroke="meta alt right" />
     <keyboard-shortcut first-keystroke="shift meta equals" />
   </action>
+  <action id="EditorStartNewLineBefore" />
   <action id="EditorTextEnd" />
   <action id="EditorTextEndWithSelection" />
   <action id="EditorTextStartWithSelection" />
@@ -208,7 +224,6 @@
   </action>
   <action id="EditorUnindentSelection">
     <keyboard-shortcut first-keystroke="shift tab" />
-    <keyboard-shortcut first-keystroke="meta slash" />
     <keyboard-shortcut first-keystroke="meta open_bracket" />
   </action>
   <action id="Exit">
@@ -219,6 +234,9 @@
   </action>
   <action id="ExpandRegion">
     <keyboard-shortcut first-keystroke="meta down" />
+  </action>
+  <action id="ExternalSystem.CollapseAll">
+    <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
   <action id="FileChooser.TogglePathShowing" />
   <action id="Find">
@@ -250,7 +268,15 @@
     <keyboard-shortcut first-keystroke="shift meta g" />
   </action>
   <action id="GotoNextBookmark" />
+  <action id="GotoNextError">
+    <keyboard-shortcut first-keystroke="alt page_down" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt end" />
+  </action>
   <action id="GotoPreviousBookmark" />
+  <action id="GotoPreviousError">
+    <keyboard-shortcut first-keystroke="alt page_up" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt home" />
+  </action>
   <action id="GotoSymbol" />
   <action id="GotoTypeDeclaration">
     <keyboard-shortcut first-keystroke="shift meta f11" />
@@ -259,12 +285,18 @@
     <keyboard-shortcut first-keystroke="shift meta e" />
   </action>
   <action id="GotoUrlAction" />
+  <action id="Graph.ActualSize">
+    <keyboard-shortcut first-keystroke="meta divide" />
+  </action>
   <action id="Images.Editor.ActualSize">
     <keyboard-shortcut first-keystroke="meta divide" />
   </action>
   <action id="Images.Editor.ToggleGrid" />
   <action id="Images.Editor.ZoomIn">
     <keyboard-shortcut first-keystroke="meta add" />
+  </action>
+  <action id="Images.Editor.ZoomOut">
+    <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
   <action id="ImplementMethods" />
   <action id="IncrementalSearch" />
@@ -286,6 +318,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt r" />
   </action>
   <action id="ParameterInfo" />
+  <action id="ParameterInfo.GoToPreviousSignature" />
   <action id="Pause">
     <keyboard-shortcut first-keystroke="meta pause" />
   </action>
@@ -294,6 +327,9 @@
     <keyboard-shortcut first-keystroke="shift meta open_bracket" />
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
     <keyboard-shortcut first-keystroke="shift meta period" />
+  </action>
+  <action id="ProblemsView.CollapseAll">
+    <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
   <action id="QuickImplementations">
     <keyboard-shortcut first-keystroke="alt space" />
@@ -304,6 +340,11 @@
     <keyboard-shortcut first-keystroke="shift alt page_down" />
     <keyboard-shortcut first-keystroke="alt semicolon" />
     <keyboard-shortcut first-keystroke="shift meta space" />
+    <keyboard-shortcut first-keystroke="ctrl page_down" />
+  </action>
+  <action id="ReSharperGotoPrevErrorInSolution">
+    <keyboard-shortcut first-keystroke="shift alt page_up" />
+    <keyboard-shortcut first-keystroke="ctrl page_up" />
   </action>
   <action id="ReSharperNavigateTo" />
   <action id="RecentChangedFiles" />
@@ -311,9 +352,7 @@
     <keyboard-shortcut first-keystroke="meta alt enter" />
   </action>
   <action id="RenameElement">
-    <keyboard-shortcut first-keystroke="meta r" second-keystroke="r" />
-    <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta r" />
-    <keyboard-shortcut first-keystroke="shift meta p" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt p" />
   </action>
   <action id="Replace">
     <keyboard-shortcut first-keystroke="ctrl h" />
@@ -324,6 +363,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl meta u" />
     <keyboard-shortcut first-keystroke="shift ctrl alt f" />
     <keyboard-shortcut first-keystroke="shift ctrl alt u" />
+    <keyboard-shortcut first-keystroke="shift ctrl meta alt p" />
   </action>
   <action id="ResizeToolWindowRight" />
   <action id="RiderNuGetToggleInfoExpanderAction" />
@@ -350,13 +390,16 @@
   <action id="RiderUnitTestSessionAbortAction" />
   <action id="RiderUnitTestSessionRerunFailedTestsAction" />
   <action id="RiderUnitTestSessionRunCurrentSessionAction" />
+  <action id="RiderUnitTestTreeCollapseAllAction">
+    <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
   <action id="Run">
-    <keyboard-shortcut first-keystroke="alt f5" />
-    <keyboard-shortcut first-keystroke="meta p" />
+    <keyboard-shortcut first-keystroke="meta enter" />
   </action>
   <action id="SaveAll">
     <keyboard-shortcut first-keystroke="shift meta o" />
     <keyboard-shortcut first-keystroke="shift meta b" />
+    <keyboard-shortcut first-keystroke="meta p" />
   </action>
   <action id="SaveDocument">
     <keyboard-shortcut first-keystroke="meta s" />
@@ -375,12 +418,14 @@
   </action>
   <action id="ShowSettings" />
   <action id="SilentCodeCleanup" />
+  <action id="SplitChooser.Duplicate" />
   <action id="SurroundWithLiveTemplate" />
   <action id="SwitchHeaderSource" />
   <action id="Switcher" />
   <action id="Terminal.ClearBuffer">
     <keyboard-shortcut first-keystroke="meta l" />
   </action>
+  <action id="Terminal.SmartCommandExecution.Run" />
   <action id="ToggleBookmark" />
   <action id="Tree-selectLastExtendSelection" />
   <action id="TypeHierarchy" />
@@ -393,6 +438,7 @@
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="Vcs.Log.FocusTextFilter" />
+  <action id="ViewSource" />
   <action id="XDebugger.JumpToSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
