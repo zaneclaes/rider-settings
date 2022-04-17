@@ -3,6 +3,10 @@
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="alt left" />
   </action>
+  <action id="BuildSolutionAction">
+    <keyboard-shortcut first-keystroke="ctrl f9" />
+    <keyboard-shortcut first-keystroke="ctrl b" />
+  </action>
   <action id="ChangesView.Diff" />
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="shift ctrl w" />
@@ -34,6 +38,7 @@
   </action>
   <action id="CompareTwoFiles" />
   <action id="Console.Execute.Multiline" />
+  <action id="Console.TableResult.DeleteRows" />
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
   <action id="Diff.ShowDiff" />
@@ -47,6 +52,7 @@
   <action id="EditorDecreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>
+  <action id="EditorDeleteLine" />
   <action id="EditorDuplicate" />
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl equals" />
@@ -131,6 +137,7 @@
   </action>
   <action id="ReSharperGotoNextErrorInSolution">
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
+    <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
   <action id="ReSharperNavigateTo">
     <keyboard-shortcut first-keystroke="shift ctrl d" />
@@ -143,6 +150,7 @@
   </action>
   <action id="ReplaceInPath" />
   <action id="RiderUnitTestDebugContextTwAction" />
+  <action id="RiderUnitTestRunCurrentSessionTwAction" />
   <action id="RiderUnitTestRunSolutionTwAction" />
   <action id="RunDashboard.CopyConfiguration" />
   <action id="RunDashboard.ShowConfigurations" />

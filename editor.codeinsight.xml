@@ -4,4 +4,8 @@
     <option name="hasNotifiedAboutCompletingWithEnter" value="true" />
     <option name="hasNotifiedAboutCompletingWithSpace" value="true" />
   </component>
+  <component name="RiderCodeCompletionExtraSettings">
+    <option name="alwaysCompleteWithEnter" value="true" />
+    <option name="hasNotifiedAboutCompletingWithEnter" value="true" />
+  </component>
 </application>
