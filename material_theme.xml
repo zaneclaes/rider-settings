@@ -1,0 +1,19 @@
+<application>
+  <component name="MaterialThemeConfig">
+    <option name="compactStatusBar" value="true" />
+    <option name="contrastMode" value="true" />
+    <option name="highContrast" value="true" />
+    <option name="compactSidebar" value="true" />
+    <option name="isHighlightColorEnabled" value="true" />
+    <option name="isCompactStatusBar" value="true" />
+    <option name="isContrastMode" value="true" />
+    <option name="isHighContrast" value="true" />
+    <option name="isWizardShown" value="true" />
+    <option name="pristineConfig" value="false" />
+    <option name="accentColor" value="416a9b" />
+    <option name="highlightColor" value="92e0ff" />
+    <option name="selectedTheme" value="NATIVE" />
+    <option name="userId" value="44614010:167f6f59d79:-8000" />
+    <option name="version" value="7.3.2" />
+  </component>
+</application>
