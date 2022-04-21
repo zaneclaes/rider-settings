@@ -1,0 +1,8 @@
+<application>
+  <component name="CodeLensSettings" enabled="false">
+    <enabled>
+      <map />
+    </enabled>
+    <showUnavailable>false</showUnavailable>
+  </component>
+</application>
