@@ -2,6 +2,7 @@
   <component name="GeneralSettings">
     <option name="confirmExit" value="false" />
     <option name="confirmOpenNewProject2" value="0" />
+    <option name="reopenLastProject" value="false" />
     <option name="autoSaveFiles" value="false" />
     <option name="showTipsOnStartup" value="false" />
     <option name="useDefaultBrowser" value="false" />
@@ -39,6 +40,6 @@
     <entry key="ide.new.project.model" value="false" />
     <entry key="ide.mac.bigsur.window.with.tabs.enabled" value="false" />
     <entry key="ide.lookup.shrink" value="true" />
-    <entry key="rider.enable.designer.winForms" value="false" />
+    <entry key="rider.enable.designer.winForms" value="true" />
   </component>
 </application>
