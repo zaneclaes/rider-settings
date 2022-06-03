@@ -146,6 +146,7 @@
   </action>
   <action id="ReSharperGotoNextErrorInSolution">
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
+    <keyboard-shortcut first-keystroke="ctrl space" />
   </action>
   <action id="ReSharperNavigateTo">
     <keyboard-shortcut first-keystroke="shift ctrl d" />
