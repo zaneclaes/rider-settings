@@ -5,8 +5,8 @@
       <mapping pattern="" type="AUTO_DETECTED" />
       <mapping ext="jslib" type="JavaScript" />
       <mapping ext="rc" type="PLAIN_TEXT" />
-      <mapping ext="graphql" type="PLAIN_TEXT" />
       <mapping ext="shaer" type="PLAIN_TEXT" />
+      <mapping ext="graphql" type="PLAIN_TEXT" />
       <removed_mapping ext="graphqlconfig" approved="true" type="JSON" />
     </extensionMap>
   </component>
