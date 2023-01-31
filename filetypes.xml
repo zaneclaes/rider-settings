@@ -9,6 +9,7 @@
       <mapping ext="graphql" type="PLAIN_TEXT" />
       <removed_mapping ext="graphql" approved="true" type="GraphQL" />
       <removed_mapping ext="graphqlconfig" approved="true" type="JSON" />
+      <removed_mapping ext="tps" approved="true" type="XML" />
     </extensionMap>
   </component>
 </application>
